@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.zaneti.spring;
+package br.com.zaneti.spring.controller;
+
+import br.com.zaneti.spring.model.dao.DAOUsuario;
+import org.springframework.stereotype.Controller;
 
 /**
  *
  * @author rafaelz
  */
-public class Usuario {
+@Controller
+public class UsuarioController {
     
+    private DAOUsuario daoUsuario;
 }

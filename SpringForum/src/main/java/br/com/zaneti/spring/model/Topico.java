@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.zaneti.spring;
+package br.com.zaneti.spring.model;
 
 /**
  *
  * @author rafaelz
  */
-public class Resposta {
-
+public class Topico {
+    
     private Usuario usuario;
-    private Topico topico;
+    private Assunto assunto;
 
-    public Resposta(Usuario usuario, Topico topico) {
+    public Topico(Usuario usuario, Assunto assunto) {
         this.usuario = usuario;
-        this.topico = topico;
+        this.assunto = assunto;
     }
 
     public Usuario getUsuario() {
@@ -26,13 +26,13 @@ public class Resposta {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
-    public Topico getTopico() {
-        return topico;
+    
+    public Assunto getAssunto() {
+        return assunto;
     }
 
-    public void setTopico(Topico topico) {
-        this.topico = topico;
+    public void setAssunto(Assunto assunto) {
+        this.assunto = assunto;
     }
-
+        
 }

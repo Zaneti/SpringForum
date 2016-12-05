@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.zaneti.spring;
+package br.com.zaneti.spring.model;
 
 /**
  *
  * @author rafaelz
  */
-public class Assunto {
+public class Usuario {
     
 }
