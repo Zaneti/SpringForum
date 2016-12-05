@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.versao>4.3.3.RELEASE</spring.versao>
         <aspectj.versao>1.8.9</aspectj.versao>
-        <tiles.versao>1.8.9</tiles.versao>
+        <tiles.versao>3.0.7</tiles.versao>
     </properties>
     
     <dependencies>
