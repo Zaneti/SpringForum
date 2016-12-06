@@ -30,6 +30,10 @@ public class HomeController {
         model.put("usuarios", getDaoUsuario().list());
         return "index";
     }
+    
+    public String getHelloWordMessage(){
+        return "Hello Word!!!";
+    }
 
     public DAOAssunto getDaoAssunto() {
         return daoAssunto;

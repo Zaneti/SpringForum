@@ -17,7 +17,7 @@
         </init-param>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>br.com.zaneti.spring.AppConfig</param-value>
+            <param-value>br.com.zaneti.spring.config.AppConfig</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -30,4 +30,7 @@
             30
         </session-timeout>
     </session-config>
+    <welcome-file-list>
+        <welcome-file>views/index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>

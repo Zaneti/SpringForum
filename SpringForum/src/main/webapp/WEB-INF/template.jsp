@@ -1,18 +1,14 @@
-<%-- 
-    Document   : template
-    Created on : 04/12/2016, 10:23:48
-    Author     : rafaelz
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="<c:url value='/WEB-INF/resources/css/bootstrap.css'/>"  rel="stylesheet"/>
-        <link href="<c:url value='/WEB-INF/resources/css/style.css'/>" rel="stylesheet"/>
+        <link type="text/stylesheet" rel="stylesheet" 
+              href="/WEB-INF/resources/css/bootstrap.css"/>
+        <script  type="text/javascript" 
+        src="/WEB-INF/resources/js/bootstrap.js"></script>
         <!-- Inclusão do título pelo Tiles -->
         <title>
-            <tiles:getAsString name="titulo" />
+            <tiles:getAsString name="titulo"/>
         </title>
     </head>
     <body>

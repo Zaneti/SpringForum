@@ -37,8 +37,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.versao}</version>
-        </dependency>
-        <dependency>
+        </dependency><dependency>
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-core</artifactId>
             <version>${tiles.versao}</version>
